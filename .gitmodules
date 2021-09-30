@@ -3,4 +3,4 @@
 	url = https://github.com/maticnetwork/contracts.git
 [submodule "bttc-contracts"]
 	path = bttc-contracts
-	url = http://39.106.174.213/BitTorrentChain/bttc-contracts
+	url = https://github.com/zhang0125/contracts.git
