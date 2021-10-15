@@ -9,15 +9,27 @@
     "byzantiumBlock": 0,
     "constantinopleBlock": 0,
     "petersburgBlock": 0,
-    "istanbulBlock": 0,
-    "muirGlacierBlock": 0,
+    "istanbulBlock": 3395000,
+    "muirGlacierBlock": 3395000,
+    "berlinBlock": 14750000,
     "bor": {
-      "period": 1,
-      "producerDelay": 4,
+      "period": 2,
+      "producerDelay": 6,
       "sprint": 64,
-      "backupMultiplier": 1,
+      "backupMultiplier": 2,
       "validatorContract": "0x0000000000000000000000000000000000001000",
-      "stateReceiverContract": "0x0000000000000000000000000000000000001001"
+      "stateReceiverContract": "0x0000000000000000000000000000000000001001",
+      "overrideStateSyncRecords": {
+        "14949120": 8,
+        "14949184": 0,
+        "14953472": 0,
+        "14953536": 5,
+        "14953600": 0,
+        "14953664": 0,
+        "14953728": 0,
+        "14953792": 0,
+        "14953856": 0
+      }
     }
   },
   "nonce": "0x0",

@@ -15,9 +15,9 @@ contract BorValidatorSet is System {
   using RLPReader for RLPReader.RLPItem;
   using ECVerify for bytes32;
 
-  bytes32 public constant CHAIN = keccak256("heimdall-15001");
+  bytes32 public constant CHAIN = keccak256("heimdall-931");
   bytes32 public constant ROUND_TYPE = keccak256("vote");
-  bytes32 public constant BOR_ID = keccak256("15001");
+  bytes32 public constant BOR_ID = keccak256("931");
   uint8 public constant VOTE_TYPE = 2;
   uint256 public constant FIRST_END_BLOCK = 255;
   uint256 public constant SPRINT = 64;
@@ -214,10 +214,22 @@ contract BorValidatorSet is System {
 
   /// Get current validator set (last enacted or initial if no changes ever made) with current stake.
   function getInitialValidators() public view returns (address[] memory, uint256[] memory) {
-    address[] memory addrs = new address[](1);
-    addrs[0] = 0x32CD00e380f10d4C98f4170C57792e184107677F;
-    uint256[] memory powers = new uint256[](1);
+    address[] memory addrs = new address[](7);
+    addrs[0] = 0xA16764A0B428e19FdE209269Dfde07A2e0C52512;
+    addrs[1] = 0xFD24E96817F5855Ffb1fb2390Bd07D615B8E1C98;
+    addrs[2] = 0xe65Cc8c717b3523400Dd1dB4cE6fd16Cd23ce090;
+    addrs[3] = 0xa98597FF79a4FCC34C9df7c41A27a9f7A447e7e3;
+    addrs[4] = 0xCc79a7207959fb6c59f22EE72A88d6a6Cc32B0c6;
+    addrs[5] = 0xDa99EAd99D39B6259f960a724F4132709a68aef3;
+    addrs[6] = 0xB10972566C93edb94B91989C6C99851C42245A6d;
+    uint256[] memory powers = new uint256[](7);
     powers[0] = 10000;
+    powers[1] = 10000;
+    powers[2] = 10000;
+    powers[3] = 10000;
+    powers[4] = 10000;
+    powers[5] = 10000;
+    powers[6] = 10000;
     return (addrs, powers);
   }
 
