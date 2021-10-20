@@ -9,9 +9,9 @@
     "byzantiumBlock": 0,
     "constantinopleBlock": 0,
     "petersburgBlock": 0,
-    "istanbulBlock": 3395000,
-    "muirGlacierBlock": 3395000,
-    "berlinBlock": 14750000,
+    "istanbulBlock": 0,
+    "muirGlacierBlock": 0,
+    "berlinBlock": 0,
     "bor": {
       "period": 2,
       "producerDelay": 6,
