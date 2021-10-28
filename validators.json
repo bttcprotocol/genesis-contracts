@@ -2,16 +2,16 @@
   {
     "address": "0xfA841eAAcf03598bAadF0266eF6097C654DE5465",
     "stake": 1,
-    "balance": 100000
+    "balance": 300000000
   },
   {
     "address": "0x80CFb197Be875eE45294AC31406E6483e3eAb02E",
     "stake": 1,
-    "balance": 100000
+    "balance": 300000000
   },
   {
     "address": "0x0aB3ab4542ED5FA2A67B2B8DAbC82C42162853A6",
     "stake": 1,
-    "balance": 100000
+    "balance": 300000000
   }
 ]

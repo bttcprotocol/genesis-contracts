@@ -80,7 +80,7 @@ Promise.all([
     "MRC20"
   )
 ]).then(result => {
-  const totalMaticSupply = web3.utils.toBN("10000000000000")
+  const totalMaticSupply = web3.utils.toBN("10000000000000000")
 
   var validatorsBalance = web3.utils.toBN(0)
   validators.forEach(v => {
