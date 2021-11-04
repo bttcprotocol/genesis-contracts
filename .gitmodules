@@ -1,6 +1,4 @@
-[submodule "matic-contracts"]
-	path = matic-contracts
-	url = https://github.com/maticnetwork/contracts.git
 [submodule "bttc-contracts"]
 	path = bttc-contracts
 	url = https://github.com/bttcprotocol/contracts.git
+        branch = feature/add_withdraw_to
