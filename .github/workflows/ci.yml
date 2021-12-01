@@ -28,7 +28,13 @@ jobs:
         solc --version
     - name: Setup Node.js environment
       uses: actions/setup-node@v1.4.2
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: Generate genesis file
       run: bash generate.sh 15001 heimdall-15001
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: Run tests
       run: npm run test:ci
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
