@@ -17,6 +17,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update Path
       run: echo "::add-path::$RUNNER_WORKSPACE/$(basename $GITHUB_REPOSITORY)" # Make it accessible from runner
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: Install solc
       run: |
         set -x
