@@ -10,16 +10,16 @@ $ git submodule init
 $ git submodule update
 ```
 
-### 2. Compile Matic contracts
+### 2. Compile Bttc contracts
 ```bash
-$ cd matic-contracts
+$ cd bttc-contracts
 $ npm install
-$ node scripts/process-templates.js --bor-chain-id <bor-chain-id>
+$ node scripts/process-templates.js --bor-chain-id <bttc-chain-id>
 $ npm run truffle:compile
 $ cd ..
 ```
 
-### 3. Generate Bor validator set sol file
+### 3. Generate Bttc validator set sol file
 
 Following command will generate `BorValidatorSet.sol` file from `BorValidatorSet.template` file.
 
