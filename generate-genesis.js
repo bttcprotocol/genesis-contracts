@@ -10,7 +10,7 @@ const validators = require("./validators")
 require("./generate-borvalidatorset")
 
 program.version("0.0.1")
-program.option("-c, --bor-chain-id <bor-chain-id>", "Bor chain id", "15001")
+program.option("-c, --bttc-chain-id <bttc-chain-id>", "Bttc chain id", "1029")
 program.option(
   "-o, --output <output-file>",
   "Genesis json file",
