@@ -17,8 +17,8 @@ contract('BorValidatorSet', async (accounts) => {
         })
         it('Validator set be default', async () => {
             const validators = await testBVS.getBorValidators(255)
-            assert.strictEqual(validators[0][0], "0x6c468CF8c9879006E22EC4029696E005C2319C9D") // check address in validators.js
-            assertBigNumberEquality(validators[1], new BN(40))   // check power
+            assert.strictEqual(validators[0][0], "0xfA841eAAcf03598bAadF0266eF6097C654DE5465") // check address in validators.js
+            assertBigNumberEquality(validators[1][0], new BN(1))   // check power
         })
         it('Default validator stake', async () => {
             const validatorTotalStake = await testBVS.getValidatorsTotalStakeBySpan(0)
