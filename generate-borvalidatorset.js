@@ -5,11 +5,11 @@ const web3 = require("web3")
 const validators = require("./validators")
 
 program.version("0.0.1")
-program.option("--bor-chain-id <bor-chain-id>", "Bor chain id", "15001")
+program.option("--bttc-chain-id <bttc-chain-id>", "Bttc chain id", "1029")
 program.option(
-  "--heimdall-chain-id <heimdall-chain-id>",
-  "Heimdall chain id",
-  "heimdall-P5rXwg"
+  "--delivery-chain-id <delivery-chain-id>",
+  "Delivery chain id",
+  "delivery-P5rXwg"
 )
 program.option(
   "--first-end-block <first-end-block>",
@@ -42,4 +42,4 @@ const data = {
 const templateString = fs.readFileSync(program.template).toString()
 const resultString = nunjucks.renderString(templateString, data)
 fs.writeFileSync(program.output, resultString)
-console.log("Bor validator set file updated.")
+console.log("Bttc validator set file updated.")
