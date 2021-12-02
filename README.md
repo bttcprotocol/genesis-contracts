@@ -24,7 +24,7 @@ $ cd ..
 Following command will generate `BorValidatorSet.sol` file from `BorValidatorSet.template` file.
 
 ```bash
-# Generate bor validator set using stake and balance
+# Generate bttc validator set using stake and balance
 # Modify validators.json before as per your need
 $ node generate-borvalidatorset.js --bttc-chain-id <bttc-chain-id> --delivery-chain-id <delivery-chain-id>
 ```
