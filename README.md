@@ -14,7 +14,7 @@ $ git submodule update
 ```bash
 $ cd bttc-contracts
 $ npm install
-$ node scripts/process-templates.js --bor-chain-id <bor-chain-id>
+$ node scripts/process-templates.js --bttc-chain-id <bttc-chain-id>
 $ npm run truffle:compile
 $ cd ..
 ```
