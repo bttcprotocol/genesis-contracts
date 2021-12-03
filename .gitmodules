@@ -1,5 +1,5 @@
 [submodule "bttc-contracts"]
 	path = bttc-contracts
 	url = https://github.com/bttcprotocol/contracts.git
-    branch = feature/add_withdraw_to
+    branch = /stake
 
