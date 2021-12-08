@@ -90,7 +90,7 @@ Promise.all([
 
   const contractBalance = totalMaticSupply.sub(validatorsBalance)
   const data = {
-    chainId: program.borChainId,
+    chainId: program.bttcChainId,
     validators: validators,
     maticChildERC20ContractBalance: web3.utils.toHex(
       web3.utils.toWei(contractBalance.toString())
