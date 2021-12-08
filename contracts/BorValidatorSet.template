@@ -15,9 +15,9 @@ contract BorValidatorSet is System {
   using RLPReader for RLPReader.RLPItem;
   using ECVerify for bytes32;
 
-  bytes32 public constant CHAIN = keccak256("{{heimdallChainId}}");
+  bytes32 public constant CHAIN = keccak256("{{deliveryChainId}}");
   bytes32 public constant ROUND_TYPE = keccak256("vote");
-  bytes32 public constant BOR_ID = keccak256("{{borChainId}}");
+  bytes32 public constant BOR_ID = keccak256("{{bttcChainId}}");
   uint8 public constant VOTE_TYPE = 2;
   uint256 public constant FIRST_END_BLOCK = {{firstEndBlock}};
   uint256 public constant SPRINT = 64;
