@@ -34,8 +34,8 @@ validators.forEach(v => {
 })
 
 const data = {
-  borChainId: program.bttcChainId,
-  heimdallChainId: program.deliveryChainId,
+  bttcChainId: program.bttcChainId,
+  deliveryChainId: program.deliveryChainId,
   firstEndBlock: program.firstEndBlock,
   validators: validators
 }
